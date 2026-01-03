@@ -1,0 +1,13 @@
+# Ignore Database
+data/*.db
+
+# Ignore Python Cache
+__pycache__/
+*.pyc
+
+# Ignore Mac System files
+.DS_Store
+
+# Ignore Environment (if you made one)
+env/
+venv/

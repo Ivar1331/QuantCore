@@ -1,0 +1,12 @@
+QuantCore/
+│
+├── data/                   # Where our database will live
+│   └── market_data.db      # SQLite database (we will create this)
+│
+├── src/                    # Source code
+│   ├── __init__.py
+│   ├── sp500_tickers.py    # Script to get the list of companies
+│   └── data_loader.py      # Script to download and save prices
+│
+├── requirements.txt        # List of dependencies
+└── main.py                 # The entry point
